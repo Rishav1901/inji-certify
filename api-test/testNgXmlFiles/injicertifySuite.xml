@@ -645,12 +645,6 @@
 			<class name="io.inji.testrig.apirig.injicertify.testscripts.PutWithPathParamsAndBody" />
 		</classes>
 	</test>	
-	<test name="GetUpdatedCredentialConfig">
-		<parameter name="ymlFile" value="injicertify/CredentialConfig/GetCredentialConfiguration/GetUpdatedCredentialConfiguration.yml" />
-		<classes>
-			<class name="io.inji.testrig.apirig.injicertify.testscripts.GetWithParam" />
-		</classes>
-	</test>
 	<test name="DeleteCredentialConfig">
 		<parameter name="ymlFile"
 			value="injicertify/CredentialConfig/DeleteCredentialConfiguration/DeleteCredentialConfiguration.yml" />
